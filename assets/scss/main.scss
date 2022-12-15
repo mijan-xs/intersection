@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik+Gemstones&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	//font-family: 'Rubik Gemstones', cursive;
+	font-size: 1.4rem;
+}
+
+.container{
+	max-width: 90rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.menu{
+	&-item{
+		font-size: 4rem;
+		font-family: 'Rubik Gemstones', cursive;
+		padding: 2.5rem;
+		&.unlucky{
+			.badge{
+				width: 20px;
+				height: auto;
+				background-color: #3f06df;
+				color: #fff;
+				font-size: 12px;
+			}
+		}
+	}
+}
